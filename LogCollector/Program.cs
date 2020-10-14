@@ -137,11 +137,11 @@ namespace LogCollector
                     archive = savelogpath + "\\" + DateTime.Now.ToString("yyyy-MM-dd_HH-mm") + ".zip";
 
                     ZipFile.CreateFromDirectory(backupDir, archive);
-                    /*
+                    
                     Directory.Delete(backupDir, true);
 
 
-                    
+                    /*
                     // Delete source files that were copied.
                     foreach (string f in txtList)
                     {
